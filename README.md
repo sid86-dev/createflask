@@ -1,3 +1,3 @@
 # flask_createapp
 
-`bash build.sh`
+## `bash build.sh`
