@@ -28,5 +28,4 @@ echo !data_req! > "requirements.txt"
 @REM pause
 python app.py
 
-@REM mkdir hello
 
