@@ -4,7 +4,9 @@ green=`tput setaf 2`
 reset=`tput sgr0`
 # create a working directory  
 clear
-echo "Enter a folder name: ";
+echo "${red}build: -----> ${green}Starting Flask-createapp...${reset}";
+echo -en '\n';
+echo "${green}Enter a folder name: ${reset}";
 read folder_name
 SECONDS=0
 echo "${red}build: -----> ${green}Creating directory $folder_name...${reset}";
