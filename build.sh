@@ -3,6 +3,7 @@ red=`tput setaf 1`
 green=`tput setaf 2`
 reset=`tput sgr0`
 # create a working directory  
+clear
 echo "Enter a folder name: ";
 read folder_name
 SECONDS=0
