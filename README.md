@@ -1,6 +1,9 @@
 # flask_createapp
 
-## `bash build.sh`
+## `./build.sh`
+
+## `build.bat`
+
 
 
 
