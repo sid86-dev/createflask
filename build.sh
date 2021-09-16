@@ -88,7 +88,6 @@ echo -en '\n';
 duration=$SECONDS
 echo "$(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed."
 echo -en '\n';
-echo -en '\n';
 echo "${red}build: -----> ${green}Running flask app...${reset}";
 echo -en '\n';
 python app.py;
