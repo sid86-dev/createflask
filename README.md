@@ -1,10 +1,18 @@
 # flask_createapp
 
-## `./build.sh`
-
-## `build.bat`
 
 
+<br>
 
+##  How to Use ❓
+ 
+### `./build.sh`
+
+### `build.bat`
+
+<br>
+<br>
+<br>
+<br>
 
 @copyright Throttlerz 2021
