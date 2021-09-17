@@ -1,0 +1,5 @@
+git remote add all REMOTE-URL-1
+git remote set-url --add --push all REMOTE-URL-1
+git remote set-url --add --push all REMOTE-URL-2
+git push all BRANCH
+git fetch --all
