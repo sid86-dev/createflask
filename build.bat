@@ -1,5 +1,6 @@
 @echo off
 
+color a
 set /p f_name=Enter folder name:
 
 mkdir  %f_name%
@@ -26,6 +27,7 @@ cd ..
 echo !data_flask! > "app.py"
 echo !data_req! > "requirements.txt"
 @REM pause
+start chrome http://127.0.0.1:4000/
 python app.py
-
+clear
 
