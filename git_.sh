@@ -14,7 +14,7 @@ git commit -m "$push_type";
 echo -en '\n';
 echo "${red}remote: -----> ${green}pushing all files to branch...${reset}";
 echo -en '\n';
-git push all master;
+git push all develop;
 echo -en '\n';
 echo "${red}remote: -----> ${green}git push success...${reset}";
 echo -en '\n';
