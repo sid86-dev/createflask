@@ -6,12 +6,10 @@ reset=`tput sgr0`
 clear
 echo "${red}build: -----> ${green}Starting Flask-createapp...${reset}";
 echo -en '\n';
-read -p "${green}Enter a folder name: ${reset}" folder_name
 SECONDS=0
-echo "${red}build: -----> ${green}Creating directory $folder_name...${reset}";
-mkdir $folder_name
-
-cd $folder_name
+echo "${red}build: -----> ${green}Creating directory flaskapp...${reset}";
+mkdir flaskapp
+cd flaskapp
 # build templates
 echo -en '\n';
 echo "${red}build: -----> ${green}Creating templates directory...${reset}";
@@ -26,11 +24,11 @@ echo '<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>'$folder_name' Flask app</title>
+    <title>Flask app</title>
 </head>
 
 <body>
-    <h1>Hello World this is '$folder_name' app</h1>
+    <h1>Hello World this is my flaskapp</h1>
 </body>
 
 </html>' > index.html;
@@ -63,7 +61,7 @@ def hello_world():
     return "<p>Hello, World!</p>"
 
 if __name__=="__main__":
-    app.run()
+    app.run(debug=True)
 
 ' > app.py;
 # installs modules
@@ -92,6 +90,6 @@ echo "$(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed."
 echo -en '\n';
 echo "${red}build: -----> ${green}Running flask app...${reset}";
 echo -en '\n';
-open http://127.0.0.1:4000/
+google-chrome http://127.0.0.1:5000/
 python app.py;
 clear
