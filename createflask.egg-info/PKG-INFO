@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: createflask
+Version: 0.0.5.1
+Summary: Python package for creating flaskapp
+Home-page: UNKNOWN
+Author: Throttlerz (Siddhartha Roy)
+Author-email: <sid86harth@gmail.com>
+License: UNKNOWN
+Keywords: python,web development,createapp,automation,flask,python flask
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+## flask-createapp
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/createflask)
+
+ 
+## `pip install flask-createapp`
+ 
+
+<br>
+
+> ### Create your flask development environment with 2 simple commands.
+
+<br>
+
+### setup
+
+```python
+from createflask import createapp
+
+app = createapp.Create('app')
+
+app.sow(server=True)
+
+```
+
+<br>
+
+
+
+

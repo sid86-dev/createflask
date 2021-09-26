@@ -1,6 +1,7 @@
 ## flask-createapp
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/flask-createapp)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/createflask)
+
 
  
 ## `pip install flask-createapp`
@@ -15,15 +16,16 @@
 ### setup
 
 ```python
-from createapp import Create
+from createflask import createapp
 
-app = Create('app')
+app = createapp.Create('app')
 
-app.sow(server=False)
+app.sow(server=True)
 
 ```
 
 <br>
 
-https://pypi.org/project/flask-createapp/
+https://pypi.org/project/createapp/
+
 

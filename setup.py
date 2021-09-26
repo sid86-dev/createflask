@@ -7,13 +7,14 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.0.1'
+VERSION = '0.0.5.1'
+
 DESCRIPTION = 'Python package for creating flaskapp'
 LONG_DESCRIPTION = 'Now create your flask development environment with 2 simple commands'
 
 # Setting up
 setup(
-    name="flask-createapp",
+    name="createflask",
     version=VERSION,
     author="Throttlerz (Siddhartha Roy)",
     author_email="<sid86harth@gmail.com>",
