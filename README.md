@@ -1,4 +1,4 @@
-## flask-createapp
+## createflask
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/createflask)
 
