@@ -32,19 +32,17 @@ class Create:
 
             finish = time.time()
 
-            final_task =  ['start http://127.0.0.1:5000/', 'python app.py']
+            final_task =  ['pip install --upgrade flask','start http://127.0.0.1:5000/', 'python app.py']
 
             print(f'flask app created in {round(finish-self.start, 2)} seconds')
 
             if server==True:
                 for task in final_task:
-                    subprocess.run(task, shell=True)
-
-
+                    p2 = subprocess.run(task, shell=True)
             
 
 
 if __name__ == "__main__":
     app = Create('app')
 
-    app.sow(server=False)
+    app.sow(server=True)
