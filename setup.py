@@ -13,7 +13,7 @@ LONG_DESCRIPTION = 'Now create your flask development environment with 2 simple 
 
 # Setting up
 setup(
-    name="piencrypt",
+    name="flask-createapp",
     version=VERSION,
     author="Throttlerz (Siddhartha Roy)",
     author_email="<sid86harth@gmail.com>",
