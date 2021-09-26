@@ -4,7 +4,7 @@
 
 
  
-## `pip install flask-createapp`
+## `pip install createflask`
  
 
 <br>
