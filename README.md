@@ -25,5 +25,4 @@ app.sow(server=False)
 
 <br>
 
-https://pypi.org/project/flask-createapp/
 
