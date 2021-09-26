@@ -26,6 +26,6 @@ app.sow(server=True)
 
 <br>
 
-https://pypi.org/project/createapp/
+https://pypi.org/project/createflask/
 
 
