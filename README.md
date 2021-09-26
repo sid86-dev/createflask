@@ -1,18 +1,29 @@
-# flask_createapp
+## flask-createapp
 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/flask-createapp)
 
-
-<br>
-
-##  How to Use ❓
  
-### `./build.sh`
+## `pip install flask-createapp`
+ 
 
-### `build.bat`
-
-<br>
-<br>
-<br>
 <br>
 
-@copyright Throttlerz 2021
+> ### Create your flask development environment with 2 simple commands.
+
+<br>
+
+### setup
+
+```python
+from createapp import Create
+
+app = Create('app')
+
+app.sow(server=False)
+
+```
+
+<br>
+
+https://pypi.org/project/flask-createapp/
+
