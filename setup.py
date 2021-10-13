@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.5.1'
+VERSION = '1.7.5'
 
 DESCRIPTION = 'Python package for creating flaskapp'
 LONG_DESCRIPTION = 'Now create your flask development environment with 2 simple commands'
@@ -22,7 +22,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=['tqdm'],
+    install_requires=['rich'],
     keywords=['python', 'web development', 'createapp',
               'automation', 'flask', 'python flask'],
     classifiers=[

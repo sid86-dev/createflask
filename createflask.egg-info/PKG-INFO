@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: createflask
-Version: 0.0.5.1
+Version: 1.7.5
 Summary: Python package for creating flaskapp
 Home-page: UNKNOWN
 Author: Throttlerz (Siddhartha Roy)
@@ -21,6 +21,7 @@ License-File: LICENSE
 ## flask-createapp
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/createflask)
+
 
  
 ## `pip install flask-createapp`
@@ -44,6 +45,8 @@ app.sow(server=True)
 ```
 
 <br>
+
+https://pypi.org/project/createapp/
 
 
 

@@ -1,11 +1,9 @@
-import time
 import subprocess
 import time
 from rich.console import* 
 from rich.theme import* 
 from rich.progress import track
 from rich.markdown import Markdown
-import time
 
 custome_theme = Theme({'success': 'green', 'error': 'bold red', 'normal': 'yellow'})
 
